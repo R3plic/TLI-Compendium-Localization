@@ -9,34 +9,34 @@ import type { VoidChartTranslations } from '../types'
 export const voidchartJa: VoidChartTranslations = {
   page: {
     backButton: 'ホーム',
-    loading: 'ツリーデータを読み込み中...'
+    loading: '虚空の星図を読み込み中...'
   },
   pointsCounter: {
     points: 'ポイント',
-    profound: '深淵',
+    profound: '幽邃',
     profoundTooltip: '深淵（メジャーノード）'
   },
   skillTree: {
-    noData: 'このツリーにはデータが読み込まれていません。',
-    runScraper: 'ツリーデータを生成するにはスクレイパーを実行してください。',
+    noData: 'この虚空の星図にはデータが読み込まれていません。',
+    runScraper: '虚空の星図を生成するにはスクレイパーを実行してください。',
     searchPlaceholder: 'ノードを検索...',
     reset: 'リセット',
-    resetCurrent: '現在のツリーをリセット',
-    resetAll: 'すべてのツリーをリセット',
-    resetAllTitle: 'すべてのツリーをリセット',
-    resetAllConfirm: 'すべてのツリーをリセットしてもよろしいですか？この操作は元に戻せません。',
+    resetCurrent: '現在のノードをリセット',
+    resetAll: '全てのノードをリセット',
+    resetAllTitle: '全てのノードをリセット',
+    resetAllConfirm: '全てのノードをリセットしますか？保存をしていない場合、リセットをすると元に戻すことができません。',
     cancel: 'キャンセル',
-    resetAllButton: 'すべてリセット',
+    resetAllButton: '全てリセット',
     toastSwitched: '{patchName}に切り替えました',
     toastReset: '{treeName}をリセットしました',
-    toastResetAll: 'すべてのツリーをリセットしました'
+    toastResetAll: '全てのノードをリセットしました'
   },
   strategy: {
     tabLabel: '戦略',
     title: '戦略',
     timemark: 'タイムマーク',
-    area: 'エリア',
-    equipment: '装備',
+    area: '異界',
+    equipment: '使用',
     selectScalpel: 'メスを選択',
     selectProbe: 'プローブを選択',
     compassNumber: 'コンパス {number}',
@@ -52,41 +52,41 @@ export const voidchartJa: VoidChartTranslations = {
       compass: 'コンパスを選択'
     },
     areas: {
-      glacialAbyss: '氷河の深淵',
-      blisteringLavaSea: '灼熱の溶岩海',
-      steelForge: '鋼の鍛冶場',
-      thunderWastes: '雷の荒野',
-      voidlands: '虚空の地'
+      glacialAbyss: '氷河のアビス',
+      blisteringLavaSea: '沸騰する炎の海',
+      steelForge: '鋼鉄の地',
+      thunderWastes: 'ブロント荒野',
+      voidlands: 'ヴォイドランド'
     },
     timemarks: {
-      profound: '深淵',
-      deepSpace: 'ディープスペース'
+      profound: '幽邃',
+      deepSpace: '深宇宙'
     }
   },
   treeNames: {
-    commodities: '商品',
+    commodities: '通貨',
     gear: '装備',
-    legendarygear: '伝説の装備',
+    legendarygear: '伝説装備',
     compass: 'コンパス',
     beacons: 'ビーコン',
-    darksurge: 'ダークサージ',
+    darksurge: 'ダークタイド',
     blacksail: 'ブラックセイル',
     cube: 'キューブ',
-    aeterna: 'エターナ',
+    aeterna: '迷宮',
     nightmare: 'ナイトメア',
-    clockworkballet: 'クロックワークバレエ',
-    folklore: 'フォークロア',
-    thefrozencanvas: '凍てついたキャンバス',
-    arcana: 'アルカナ',
-    sandlord: 'サンドロード',
-    outlaw: '無法者',
-    overrealm: 'オーバーレルム',
-    godofwar: '戦争の神',
-    godofhunting: '狩猟の神',
-    godofmight: '力の神',
-    godofmachine: '機械の神',
-    cage: '檻',
-    profound: '深淵'
+    clockworkballet: '人形',
+    folklore: '怪談',
+    thefrozencanvas: '絵雪',
+    arcana: 'タロット',
+    sandlord: '巨頭',
+    outlaw: '指名手配',
+    overrealm: '畳界',
+    godofwar: '戦争',
+    godofhunting: '狩猟',
+    godofmight: '怪力',
+    godofmachine: '機械',
+    cage: '牢獄',
+    profound: '幽邃'
   },
   stats: {
     tabLabel: '統計',
