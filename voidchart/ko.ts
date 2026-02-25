@@ -3,33 +3,34 @@
  * Machine-assisted translations - Community review needed
  * These translations were generated with AI assistance and may not be
  * accurate for gaming terminology. Native speaker contributions welcome!
+ * 26-2-19 검수됨. Pyo
  */
 import type { VoidChartTranslations } from '../types'
 
 export const voidchartKo: VoidChartTranslations = {
   page: {
     backButton: '홈',
-    loading: '트리 데이터 로딩 중...'
+    loading: '재능 별무리 데이터 로딩 중...'
   },
   pointsCounter: {
     points: '포인트',
-    profound: '심연',
-    profoundTooltip: '심연 (주요 노드)'
+    profound: '그윽한',
+    profoundTooltip: '그윽한 (주요 노드)'
   },
   skillTree: {
-    noData: '이 트리에 대한 데이터가 없습니다.',
-    runScraper: '트리 데이터를 생성하려면 스크래퍼를 실행하세요.',
+    noData: '이 재능 별무리에 대한 데이터가 없습니다.',
+    runScraper: '재능 별무리 데이터를 생성하려면 스크래퍼를 실행하세요.',
     searchPlaceholder: '노드 검색...',
     reset: '초기화',
-    resetCurrent: '현재 트리 초기화',
-    resetAll: '모든 트리 초기화',
-    resetAllTitle: '모든 트리 초기화',
-    resetAllConfirm: '모든 트리를 초기화하시겠습니까? 이 작업은 되돌릴 수 없습니다.',
+    resetCurrent: '현재 재능 별무리 초기화',
+    resetAll: '모든 재능 별무리 초기화',
+    resetAllTitle: '모든 재능 별무리 초기화',
+    resetAllConfirm: '모든 재능 별무리를 초기화하시겠습니까? 이 작업은 되돌릴 수 없습니다.',
     cancel: '취소',
     resetAllButton: '모두 초기화',
     toastSwitched: '{patchName}로 전환됨',
     toastReset: '{treeName} 초기화됨',
-    toastResetAll: '모든 트리가 초기화됨'
+    toastResetAll: '모든 재능 별무리가 초기화됨'
   },
   strategy: {
     tabLabel: '전략',
@@ -66,27 +67,27 @@ export const voidchartKo: VoidChartTranslations = {
   treeNames: {
     commodities: '상품',
     gear: '장비',
-    legendarygear: '전설 장비',
+    legendarygear: '레전드 장비',
     compass: '나침반',
-    beacons: '신호탑',
-    darksurge: '어둠의 파동',
+    beacons: '비콘',
+    darksurge: '검은 물결',
     blacksail: '검은 돛',
     cube: '큐브',
-    aeterna: '이터나',
+    aeterna: '영원한 미궁',
     nightmare: '악몽',
-    clockworkballet: '태엽 발레',
-    folklore: '민속',
-    thefrozencanvas: '얼어붙은 캔버스',
-    arcana: '아르칸',
-    sandlord: '샌드로드',
-    outlaw: '묲법자',
-    overrealm: '오버렐름',
+    clockworkballet: '기계 인형',
+    folklore: '괴담',
+    thefrozencanvas: '설원',
+    arcana: '타로',
+    sandlord: '군주',
+    outlaw: '수배',
+    overrealm: '이계',
     godofwar: '전쟁의 신',
     godofhunting: '사냥의 신',
     godofmight: '힘의 신',
     godofmachine: '기계의 신',
-    cage: '새장',
-    profound: '심연'
+    cage: '감옥',
+    profound: '그윽한'
   },
   stats: {
     tabLabel: '통계',
@@ -155,7 +156,7 @@ export const voidchartKo: VoidChartTranslations = {
       deleteFailed: '빌드 삭제에 실패했습니다',
       saveSuccess: '"{name}" 빌드를 저장했습니다!',
       exportSuccess: '빌드를 성공적으로 내보냈습니다!',
-      shareSuccess: '공유 URL이 클립보드에 복사되었습니다!'
+      shareSuccess: '공유 URL이 클립별무리에 복사되었습니다!'
     }
   },
   itemDialog: {
