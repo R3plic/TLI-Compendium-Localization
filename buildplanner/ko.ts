@@ -307,13 +307,41 @@ export const buildplannerKo: BuildPlannerTranslations = {
     importJson: 'JSON에서 가져오기',
     copyShareUrl: '공유 URL 복사',
     resetBuild: '빌드 초기화',
-    resetConfirm: '현재 빌드를 초기화하시겠습니까? 저장하지 않은 변경사항이 모두 삭제됩니다.'
+    resetConfirm: '현재 빌드를 초기화하시겠습니까? 저장하지 않은 변경사항이 모두 삭제됩니다.',
+    saveModal: {
+      title: '빌드 저장',
+      warning: '이것은 브라우저의 로컬 저장소에만 저장됩니다. 이식 가능한 파일을 만들려면 납품하기를 사용하세요.',
+      cloudInfo: '이 빌드는 클라우드에 저장됩니다. 현재 제한은 사용자당 {limit} 빌드입니다.',
+      cloudToggle: '클우드 저장 활성화 ({count}/{limit})',
+      loginPrompt: '클우드에 빌드를 저장하고 싶으신가요?',
+      loginLink: '로그인',
+      loginPromptEnd: '하여 이 기능을 사용하세요.',
+      buildName: '빌드 이름',
+      placeholder: '빌드 이름을 입력...',
+      errorNoName: '빌드 이름을 입력해주세요',
+      errorSaveFailed: '빌드 저장 실패. 저장 공간이 가득 찼을 수 있습니다.',
+      errorCloudLimit: '클우드 빌드 제한 도달 ({limit}). 더 저장하려면 클라우드 빌드를 삭제하세요.',
+      errorCloudSaveFailed: '클우드에 저장 실패. 다시 시도해주세요.',
+      cancel: '취소',
+      save: '저장'
+    },
+    deleteModal: {
+      title: '빌드 삭제',
+      warning: '"{name}"을(를) 삭제하시겠습니까?',
+      irreversible: '이 작업은 되돌릴 수 없습니다.',
+      cancel: '취소',
+      confirm: '삭제'
+    }
   },
   toasts: {
     buildSaved: '빌드 저장 완료',
+    saveSuccessCloud: '빌드 "{name}"이(가) 클라우드에 저장되었습니다!',
     newBuildCreated: '새 빌드 생성됨',
     buildLoaded: '빌드 불러오기 완료',
     buildDeleted: '빌드 삭제됨',
+    deleteSuccessCloud: '클우드 빌드 "{name}" 삭제됨',
+    deleteFailedCloud: '클라우드 빌드 삭제 실패',
+    loadFailed: '빌드 불러오기 실패',
     buildReset: '빌드 초기화됨',
     importSuccess: '빌드를 성공적으로 가져왔습니다!',
     exportSuccess: '빌드 내보내기 완료',

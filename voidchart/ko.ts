@@ -109,6 +109,13 @@ export const voidchartKo: VoidChartTranslations = {
     saveModal: {
       title: '빌드 저장',
       warning: '이 작업은 브라우저의 로컬 저장소에만 저장됩니다. 이식 가능한 파일을 만들려면 {export} 기능을 사용하세요.',
+      cloudInfo: '이 빌드는 클라우드에 저장됩니다. 현재 제한은 사용자당 {limit} 빌드입니다.',
+      cloudToggle: '클우드 저장 활성화 ({count}/{limit})',
+      loginPrompt: '클우드에 빌드를 저장하고 싶으신가요?',
+      loginLink: '로그인',
+      loginPromptEnd: '하여 이 기능을 사용하세요.',
+      errorCloudLimit: '클우드 빌드 제한 도달 ({limit}). 더 저장하려면 클라우드 빌드를 삭제하세요.',
+      errorCloudSaveFailed: '클우드에 저장 실패. 다시 시도해주세요.',
       warningBold: '내보내기',
       buildName: '빌드 이름',
       placeholder: '빌드 이름 입력...',
@@ -148,13 +155,23 @@ export const voidchartKo: VoidChartTranslations = {
       close: '닫기',
       copyUrl: 'URL 복사'
     },
+    deleteModal: {
+      title: '빌드 삭제',
+      warning: '"{name}"을(를) 삭제하시겠습니까?',
+      irreversible: '이 작업은 되돌릴 수 없습니다.',
+      cancel: '취소',
+      confirm: '삭제'
+    },
     toasts: {
       importSuccess: '빌드를 성공적으로 가져왔습니다!',
       loadSuccess: '"{name}" 빌드를 불러왔습니다!',
       deleteSuccess: '"{name}" 빌드를 삭제했습니다',
+      deleteSuccessCloud: '클라우드 빌드 "{name}"이(가) 삭제되었습니다',
       loadFailed: '빌드 불러오기에 실패했습니다',
       deleteFailed: '빌드 삭제에 실패했습니다',
+      deleteFailedCloud: '클라우드 빌드 삭제에 실패했습니다',
       saveSuccess: '"{name}" 빌드를 저장했습니다!',
+      saveSuccessCloud: '"{name}" 빌드가 클라우드에 저장되었습니다!',
       exportSuccess: '빌드를 성공적으로 내보냈습니다!',
       shareSuccess: '공유 URL이 클립별무리에 복사되었습니다!'
     }

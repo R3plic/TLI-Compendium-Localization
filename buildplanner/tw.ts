@@ -306,13 +306,41 @@ export const buildplannerTw: BuildPlannerTranslations = {
     importJson: '從JSON導入',
     copyShareUrl: '複製分享連結',
     resetBuild: '重置構建',
-    resetConfirm: '重置當前構建？所有未儲存的更改將丟失。'
+    resetConfirm: '重置當前構建？所有未儲存的更改將丟失。',
+    saveModal: {
+      title: '儲存構建',
+      warning: '此操作僅將構建儲存到瀏覽器的本地儲存中。如需導出，請使用導出功能。',
+      cloudInfo: '此構建將儲存到雲端。當前限制為每個用戶 {limit} 個構建。',
+      cloudToggle: '啟用雲端儲存 ({count}/{limit})',
+      loginPrompt: '想在雲端儲存您的構建嗎？',
+      loginLink: '登入',
+      loginPromptEnd: '以使用此功能。',
+      buildName: '構建名稱',
+      placeholder: '輸入構建名稱...',
+      errorNoName: '請輸入構建名稱',
+      errorSaveFailed: '儲存構建失敗。儲存空間可能已滿。',
+      errorCloudLimit: '已達到雲端構建限制 ({limit})。刪除雲端構建以儲存更多。',
+      errorCloudSaveFailed: '儲存到雲端失敗。請重試。',
+      cancel: '取消',
+      save: '儲存'
+    },
+    deleteModal: {
+      title: '刪除構建',
+      warning: '確定要刪除「{name}」嗎？',
+      irreversible: '此操作無法復原。',
+      cancel: '取消',
+      confirm: '刪除'
+    }
   },
   toasts: {
     buildSaved: '構建儲存成功',
+    saveSuccessCloud: '構建"{name}"已儲存到雲端！',
     newBuildCreated: '新構建已建立',
     buildLoaded: '構建已載入',
     buildDeleted: '構建已刪除',
+    deleteSuccessCloud: '雲端構建"{name}"已刪除',
+    deleteFailedCloud: '刪除雲端構建失敗',
+    loadFailed: '加載構建失敗',
     buildReset: '構建已重置',
     importSuccess: '構建導入成功！',
     exportSuccess: '構建已導出',

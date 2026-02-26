@@ -304,13 +304,41 @@ export const buildplannerEn: BuildPlannerTranslations = {
     importJson: 'Import from JSON',
     copyShareUrl: 'Copy Share URL',
     resetBuild: 'Reset Build',
-    resetConfirm: 'Reset current build? All unsaved changes will be lost.'
+    resetConfirm: 'Reset current build? All unsaved changes will be lost.',
+    saveModal: {
+      title: 'Save Build',
+      warning: 'This saves only into your browser\'s local storage. Use Export to create a portable file.',
+      cloudInfo: 'This build will be saved to the cloud. Current limit is {limit} builds per user.',
+      cloudToggle: 'Activate Cloud Save ({count}/{limit})',
+      loginPrompt: 'Want to save your builds in the Cloud?',
+      loginLink: 'Login',
+      loginPromptEnd: 'to use this feature.',
+      buildName: 'Build Name',
+      placeholder: 'Enter build name...',
+      errorNoName: 'Please enter a build name',
+      errorSaveFailed: 'Failed to save build. Storage may be full.',
+      errorCloudLimit: 'Cloud build limit reached ({limit}). Delete a cloud build to save more.',
+      errorCloudSaveFailed: 'Failed to save to cloud. Please try again.',
+      cancel: 'Cancel',
+      save: 'Save'
+    },
+    deleteModal: {
+      title: 'Delete Build',
+      warning: 'Are you sure you want to delete "{name}"?',
+      irreversible: 'This action cannot be undone.',
+      cancel: 'Cancel',
+      confirm: 'Delete'
+    }
   },
   toasts: {
     buildSaved: 'Build saved successfully',
+    saveSuccessCloud: 'Build "{name}" saved to cloud!',
     newBuildCreated: 'New build created',
     buildLoaded: 'Build loaded',
     buildDeleted: 'Build deleted',
+    deleteSuccessCloud: 'Cloud build "{name}" deleted',
+    deleteFailedCloud: 'Failed to delete cloud build',
+    loadFailed: 'Failed to load build',
     buildReset: 'Build reset',
     importSuccess: 'Build imported successfully!',
     exportSuccess: 'Build exported',

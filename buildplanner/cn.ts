@@ -306,13 +306,41 @@ export const buildplannerCn: BuildPlannerTranslations = {
     importJson: '从JSON导入',
     copyShareUrl: '复制分享链接',
     resetBuild: '重置构建',
-    resetConfirm: '重置当前构建？所有未保存的更改将丢失。'
+    resetConfirm: '重置当前构建？所有未保存的更改将丢失。',
+    saveModal: {
+      title: '保存构建',
+      warning: '此操作仅将构建保存到浏览器的本地存储中。如需导出，请使用导出功能。',
+      cloudInfo: '此构建将保存到云端。当前限制为每个用户 {limit} 个构建。',
+      cloudToggle: '激活云存储 ({count}/{limit})',
+      loginPrompt: '想在云端保存您的构建吗？',
+      loginLink: '登录',
+      loginPromptEnd: '以使用此功能。',
+      buildName: '构建名称',
+      placeholder: '输入构建名称...',
+      errorNoName: '请输入构建名称',
+      errorSaveFailed: '保存构建失败。存储空间可能已满。',
+      errorCloudLimit: '已达到云构建限制 ({limit})。删除云构建以保存更多。',
+      errorCloudSaveFailed: '保存到云端失败。请重试。',
+      cancel: '取消',
+      save: '保存'
+    },
+    deleteModal: {
+      title: '删除构建',
+      warning: '确定要删除"{name}"吗？',
+      irreversible: '此操作无法撤销。',
+      cancel: '取消',
+      confirm: '删除'
+    }
   },
   toasts: {
     buildSaved: '构建保存成功',
+    saveSuccessCloud: '构建"{name}"已保存到云端！',
     newBuildCreated: '新构建已创建',
     buildLoaded: '构建已加载',
     buildDeleted: '构建已删除',
+    deleteSuccessCloud: '云端构建"{name}"已删除',
+    deleteFailedCloud: '删除云端构建失败',
+    loadFailed: '加载构建失败',
     buildReset: '构建已重置',
     importSuccess: '构建导入成功！',
     exportSuccess: '构建已导出',

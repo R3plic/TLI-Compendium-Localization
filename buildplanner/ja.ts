@@ -306,13 +306,41 @@ export const buildplannerJa: BuildPlannerTranslations = {
     importJson: 'JSONからインポート',
     copyShareUrl: '共有URLをコピー',
     resetBuild: 'ビルドをリセット',
-    resetConfirm: '現在のビルドをリセットしますか？保存されていない変更はすべて失われます。'
+    resetConfirm: '現在のビルドをリセットしますか？保存されていない変更はすべて失われます。',
+    saveModal: {
+      title: 'ビルドを保存',
+      warning: 'これはブラウザのローカルストレージにのみ保存されます。ポータブルファイルを作成するには、エクスポートを使用してください。',
+      cloudInfo: 'このビルドはクラウドに保存されます。現在の制限はユーザーあたり {limit} ビルドです。',
+      cloudToggle: 'クラウド保存を有効化 ({count}/{limit})',
+      loginPrompt: 'クラウドにビルドを保存しますか？',
+      loginLink: 'ログイン',
+      loginPromptEnd: 'してこの機能を使用してください。',
+      buildName: 'ビルド名',
+      placeholder: 'ビルド名を入力...',
+      errorNoName: 'ビルド名を入力してください',
+      errorSaveFailed: 'ビルドの保存に失敗しました。ストレージがいっぱいかもしれません。',
+      errorCloudLimit: 'クラウドビルドの制限に達しました ({limit})。さらに保存するにはクラウドビルドを削除してください。',
+      errorCloudSaveFailed: 'クラウドへの保存に失敗しました。もう一度お試しください。',
+      cancel: 'キャンセル',
+      save: '保存'
+    },
+    deleteModal: {
+      title: 'ビルドを削除',
+      warning: '「{name}」を削除してもよろしいですか？',
+      irreversible: 'この操作は元に戻せません。',
+      cancel: 'キャンセル',
+      confirm: '削除'
+    }
   },
   toasts: {
     buildSaved: 'ビルドを保存しました',
+    saveSuccessCloud: 'ビルド「{name}」をクラウドに保存しました！',
     newBuildCreated: '新規ビルドを作成しました',
     buildLoaded: 'ビルドを読み込みました',
     buildDeleted: 'ビルドを削除しました',
+    deleteSuccessCloud: 'クラウドビルド「{name}」を削除しました',
+    deleteFailedCloud: 'クラウドビルドの削除に失敗しました',
+    loadFailed: 'ビルドの読み込みに失敗しました',
     buildReset: 'ビルドをリセットしました',
     importSuccess: 'ビルドを正常にインポートしました！',
     exportSuccess: 'ビルドをエクスポートしました',
